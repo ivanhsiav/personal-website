@@ -3,56 +3,89 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css">
+        
         <title>Vaishnavi's page</title>
     </head>
     <body>
-    
         <div class="m-4">
             <div class="container">
-                <h1 class="has-text-centered title is-1">
+                <section class="hero is-primary has-shadow box" style="border-radius:10px">
+                    <div class="hero-body">
+                        
+                        <h1 class="has-text-centered title is-1 big-text">
+                            👋 Welcome to Vaishnavi's page
+                        </h1>
+                        
+                    </div>
+                </section>
                 
-                    Welcome to Vaishnavi's page
-                </h1>
+                    
                 <div class="columns">
-                    <div class="column m-2">
-                        <h2 class="subtitle is-2">
+                    <div class="column m-2 is-three-fifths">
+                        <h2 class="subtitle is-2 big-text">
                             About my website
                         </h2>
-                        <h4 class="subtitle is-4">
+                        <h4 class="subtitle is-4 small-text">
                             My website will talk about myself like my hobbies, what grade I am,
                             my email address, and my stories
                         </h4>
                         
-                        <h2 class="subtitle is-2">
+                        <h2 class="subtitle is-2 big-text">
                             About me
                         </h2>
-                        <h4 class="subtitle is-4">
-                            I am a gonna be in 5th grade soon, and I am 10 years old.
+                        <h4 class="subtitle is-4 small-text">
+                            I am going to be in 5th grade soon, and I am 10 years old.
                         </h4>
-                        <h2 class="subtitle is-2">
+                        <h2 class="subtitle is-2 big-text">
                             Important links
                         </h2>
                         <!--Create a separate columns div and two column elements with each button
                         explanation-->
                         
-                            
-                    
+            
                         <div class="columns">
-                            <a class="column button is-primary is-large m-3" href="Stories"> Stories </a>
-                            <a class="column button is-primary is-large m-3" href="Photos"> Photos </a>
+                            <div class="column">
+                                <h3 class="subtitle is-3 big-text">Stories webpage</h3>
+                                <h4 class="subtitle is-4 small-text" style="height:150px; overflow-y:scroll">
+
+                                    This is my stories webpage. There are many stories and they are very
+                                    interesting to read. I made them by myself. I am also having illustations for
+                                    each story.
+                                </h4>
+                                
+                                <a class="column button is-primary is-large m-3 small-text" href="stories.html"> Stories </a>
+                            </div>
+                            
+                            <div class="column">
+                                <h3 class="subtitle is-3 big-text">Photos webpage</h3>
+                                <h4 class="subtitle is-4 small-text" style="height:150px; overflow-y:scroll">
+                                    This is my photos webpage.
+                                    These photos are pictures of me from important dates, like
+                                    my birthday and during indian festivals. 
+                                </h4>
+                                
+                                <a class="column button is-primary is-large m-3 small-text" href="Photos"> Photos </a>
+                            </div>
                         </div>
+                        
                     </div>
                    
 
                     <div class="column m-2">
-                        <h2 class="subtitle is-2">Picture of Me</h2>
-                        <figure class="image is-3by4 mt-3 mb-6">
+                        <h2 class="subtitle is-2 big-text">🖼️ Picture of Me</h2>
+                        <figure class="image is-3by4 mt-3 mb-6 box">
                             <img alt="picture of me" style="object-fit:cover;border-radius:10px" src="images/IMG_20191214_163621.jpg" >
                         </figure>
-                        <h2 class="title is-2"> Contact me</h3>
+                        <h2 class="title is-2 big-text"> Contact me</h3>
         
-                        <h3 class="subtitle is-3">You can chat with me on gmail.</h4>
-                        <a class="button is-link is-light is-large" href="https://www.gmail.com"> ✉️ Email me</a>
+                        <h3 class="subtitle is-3 small-text">You can chat with me on gmail.</h4>
+                        <a 
+                            class="button is-primary is-large small-text" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=vaishnavi1eranti@gmail.com"
+                        > ✉️ Email me </a>
                     </div>
         
                 </div>

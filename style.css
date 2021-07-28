@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Nunito:wght@400&display=swap');
+            
+.big-text{
+    font-family: 'Dosis', sans-serif;
+}
+.small-text{
+    font-family: 'Nunito', sans-serif;
+}
