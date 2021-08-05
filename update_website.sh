@@ -21,4 +21,4 @@ git push origin main;
 echo "-------------------------------------------------------------------------"
 echo "congrats! commit '$1' was pushed to github. Go to github and view updates";
 
-sleep 2;
+sleep 7;
