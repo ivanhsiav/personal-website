@@ -1,4 +1,6 @@
 echo "starting process?";
+git status;
+echo "adding files"
 git add .;
 echo "added necessary files to git system";
 git commit -m "$1";
