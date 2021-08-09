@@ -7,7 +7,7 @@
 #   ./update_website.sh "added illustrations to story"
 #3. You will then see a popup and come code running. Wait one second...
 #4. If the program runs successfully, it should not close immediately.
-#   Instead, it will show a message saying "congrats" and will close after two seconds.
+#   Instead, it will show a message saying "congrats" and will close after a few seconds.
 
 echo "starting process?";
 git status;
@@ -18,7 +18,7 @@ git commit -m "$1";
 echo "successfully committed $1 to github";
 git push origin main;
 
-echo "-------------------------------------------------------------------------"
+echo "-------------------------------------------------------------------------";
 echo "congrats! commit '$1' was pushed to github. Go to github and view updates";
 
 sleep 7;
