@@ -11,6 +11,7 @@
 
 #EXAMPLE:
 # ./update_website.sh "*put your message here*"
+
 echo "starting process?";
 git status;
 echo "adding files"
