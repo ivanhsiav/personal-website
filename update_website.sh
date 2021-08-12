@@ -9,6 +9,8 @@
 #4. If the program runs successfully, it should not close immediately.
 #   Instead, it will show a message saying "congrats" and will close after a few seconds.
 
+#EXAMPLE:
+# ./update_website.sh "*put your message here*"
 echo "starting process?";
 git status;
 echo "adding files"
